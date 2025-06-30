@@ -24,7 +24,7 @@ const UpcomingEvent = () => {
 
       This artistic celebration promises to be a landmark event, made possible by the unwavering dedication and enthusiasm of Expresso - The Literary & Art Club of NIT Patna. 🚀`,
       images: [
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743002757/Events/Artopia/Vidushini%20Prasad.png",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748264/Vidushini_Prasad_svicrl.png",
       ],
       venue: "Online",
     },

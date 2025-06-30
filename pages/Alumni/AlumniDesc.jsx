@@ -71,7 +71,7 @@ const AlumniPage = () => {
                   {toggle + 1}
                 </div>
                 <div className="ml-4 cursor-pointer">
-                  <Image onClick={handleButtonRight} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664944/expresso/rightArrow_acnskv.png" width={50} height={50} alt="rightarrow" />
+                  <Image onClick={handleButtonRight} src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748400/rightArrow_acnskv_itwswu.png" width={50} height={50} alt="rightarrow" />
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ const AlumniPage = () => {
                   {toggle + 1}
                 </div>
                 <div className="ml-4 cursor-pointer">
-                  <Image onClick={handleButtonRight} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664944/expresso/rightArrow_acnskv.png" width={50} height={50} alt="rightarrow" />
+                  <Image onClick={handleButtonRight} src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748400/rightArrow_acnskv_itwswu.png" width={50} height={50} alt="rightarrow" />
                 </div>
               </div>
             </div>

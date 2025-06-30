@@ -104,7 +104,7 @@ const artData = {
     artistImage : "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685613/Rai_Chirag_Kumar_jucwst_cg3ule.jpg",
     instagram : "https://www.instagram.com/chirag.rai31?igsh=MXJkZ2t3cXdlcXloNw==" ,
     linkedin : "https://www.linkedin.com/in/chirag-kumar-rai-bbb009271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  ,
-    artImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719722775/Art/Money_Talks_Chirag_Photoshop_qh9wav.png",
+    artImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750746732/Money_Talks_Chirag_Photoshop_qh9wav_gh6vdo.png",
     description: "The JACK of all trades , Leonardo DiCaprio",
     
     

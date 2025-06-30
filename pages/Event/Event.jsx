@@ -37,10 +37,10 @@ const Event = () => {
         images: [
           "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839067/ArtopiaPoster_tn8yvl.png",
           "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839053/Vidushini_Prasad_cd7vyi.png",
-          // "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/Vidushini2.png",
+          // "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839051/Vidushini2_ohning.png",
           "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839051/VibhaRao2_a79mkp.png",
           "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839053/AmanVerma2_scmmvo.png",
-          // "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/AmanVerma1.png",
+          // "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748253/AmanVerma1_i0kroi.pngg",
           "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839050/26vibharao_pvwx7x.png",
         ],
       },

@@ -513,7 +513,7 @@ const alumniData = {
         position: "",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505694/Alumni/Abdul%20Aziz.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665197/Abdul_Aziz_qob0m9.jpg",
         branch: "",
         instagram: "",
         linkedin: "",
@@ -766,7 +766,7 @@ const alumniData = {
         position: "PR HEAD",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505681/Alumni/Kumar%20Srijan.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665248/Kumar_Srijan_osw4cr.jpg",
         branch: "ECE-23",
         instagram: "",
         linkedin: "",

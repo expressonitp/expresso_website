@@ -60,7 +60,7 @@ function Professor() {
 
   return (
     <>
-      <div className="bg-black p-0 m-0 min-h-[400px] flex flex-col gap-y-4 justify-center w-full md:bg-[url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664949/expresso/profbg_vptvyp.png')] md:bg-cover">
+      <div className="bg-black p-0 m-0 min-h-[400px] flex flex-col gap-y-4 justify-center w-full md:bg-[url('https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748397/profbg_vptvyp_h6jqmk.png')] md:bg-cover">
         <div className="flex flex-col items-center lg:justify-start lg:items-start lg:ml-40 lg:z-10">
           <div className="text-white flex flex-row items-center space-x-2">
             <Image

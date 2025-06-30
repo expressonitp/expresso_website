@@ -94,7 +94,7 @@ const TeamDesc = () => {
                 <div className="mr-4 cursor-pointer">
                   <Image
                     onClick={handleButtonLeft}
-                    src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664972/expresso/leftArrow_roirvg.png"
+                    src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748601/leftArrow_roirvg_wamtuf.png"
                     width={50}
                     height={50}
                     alt="leftarrow"
@@ -106,7 +106,7 @@ const TeamDesc = () => {
                 <div className="ml-4 cursor-pointer">
                   <Image
                     onClick={handleButtonRight}
-                    src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664944/expresso/rightArrow_acnskv.png"
+                    src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748400/rightArrow_acnskv_itwswu.png"
                     width={50}
                     height={50}
                     alt="rightarrow"
@@ -162,7 +162,7 @@ const TeamDesc = () => {
                 </div>
                 <div className="mt-6 flex items-center justify-center w-40 h-30">
                   <Image
-                    src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664945/expresso/team_soc27i.png"
+                    src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748415/team_soc27i_rezzgk.png"
                     width={600}
                     height={500}
                     alt="teamImage"
@@ -173,7 +173,7 @@ const TeamDesc = () => {
                 <div className="mr-4 cursor-pointer">
                   <Image
                     onClick={handleButtonLeft}
-                    src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664972/expresso/leftArrow_roirvg.png"
+                    src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748601/leftArrow_roirvg_wamtuf.png"
                     width={50}
                     height={50}
                     alt="leftarrow"
@@ -185,7 +185,7 @@ const TeamDesc = () => {
                 <div className="ml-4 cursor-pointer">
                   <Image
                     onClick={handleButtonRight}
-                    src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664944/expresso/rightArrow_acnskv.png"
+                    src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748400/rightArrow_acnskv_itwswu.png"
                     width={50}
                     height={50}
                     alt="rightarrow"

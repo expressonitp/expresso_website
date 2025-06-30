@@ -117,7 +117,7 @@ const ArtDesc = () => {
         <div className="flex flex-col w-full justify-center items-center">
           <div className="w-full flex items-center justify-center">
             <div className="mr-4 cursor-pointer">
-              <Image onClick={handleButtonLeft} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664972/expresso/leftArrow_roirvg.png" width={50} height={50} alt="leftarrow" />
+              <Image onClick={handleButtonLeft} src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748601/leftArrow_roirvg_wamtuf.png" width={50} height={50} alt="leftarrow" />
             </div>
             <div className="mr-4 font-Antonio text-5xl ml-4 flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4 p-2">
               {toggle + 1}
@@ -214,7 +214,7 @@ const ArtDesc = () => {
                   {toggleL + 1}
                 </div>
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonRightL} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664945/expresso/rightarrow-artdesc_yckiew.png" width={50} height={50} alt="rightarrow" />
+                  <Image onClick={handleButtonRightL} src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748409/rightarrow-artdesc_yckiew_tdbwqd.png" width={50} height={50} alt="rightarrow" />
                 </div>
               </div>
             </div>
