@@ -1,25 +1,46 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import TeamCard from "@/components/TeamCard";
-import teamData from "@/constants/teamDetails";
+import teamData, { teamOrder } from "@/constants/teamDetails";
 
 const TeamDesc = () => {
   const [toggle, setToggle] = useState(0); // Start with the first team
-  const teamKeys = Object.keys(teamData);
+  const teamKeys = teamOrder || Object.keys(teamData);
   const currentTeam = teamKeys[toggle];
   const teamInfo = teamData[currentTeam];
   const teamMembers = teamInfo.members;
   const [teamName, setTeamName] = useState(teamInfo.teamName);
   const [teamImage, setTeamImage] = useState(teamInfo.teamImage);
 
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash.startsWith('#team-')) {
+        const teamIndex = parseInt(hash.replace('#team-', ''));
+        if (!isNaN(teamIndex) && teamIndex >= 0 && teamIndex < teamKeys.length) {
+          setToggle(teamIndex);
+        }
+      }
+    };
+
+    // Check on mount
+    handleHashChange();
+
+    // Listen for hash changes
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [teamKeys.length]);
+
   const handleButtonLeft = () => {
-    setToggle(
-      (prevIndex) => (prevIndex - 1 + teamKeys.length) % teamKeys.length
-    );
+    const newIndex = (toggle - 1 + teamKeys.length) % teamKeys.length;
+    setToggle(newIndex);
+    window.location.hash = `team-${newIndex}`;
   };
 
   const handleButtonRight = () => {
-    setToggle((prevIndex) => (prevIndex + 1) % teamKeys.length);
+    const newIndex = (toggle + 1) % teamKeys.length;
+    setToggle(newIndex);
+    window.location.hash = `team-${newIndex}`;
   };
 
   // Split the teamMembers array into topQuarter and bottomHalf
@@ -33,9 +54,10 @@ const TeamDesc = () => {
     setTeamName(newTeamInfo.teamName);
     setTeamImage(newTeamInfo.teamImage);
   }, [toggle, teamKeys]);
-
+  
   return (
     <div
+      id="team-description-section" 
       className="flex flex-col min-h-screen bg-cover bg-center"
       style={{
         backgroundImage:

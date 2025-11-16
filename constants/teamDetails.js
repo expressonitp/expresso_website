@@ -1109,5 +1109,7 @@ const teamData = {
     ],
   },
 };
-
+export const teamOrder = [
+  'post_bearers','post_bearers_2', 'art', 'art_2', 'art_3','art_4', 'art_5', 'literature', 'literature_2','literature_3','website','website_2'
+];
 export default teamData;
